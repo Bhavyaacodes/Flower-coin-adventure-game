@@ -1,35 +1,26 @@
-# 🎯 Guess The Number
+# ✂️ Rock Paper Scissors
 
-My first Python mini project.
+A simple Rock Paper Scissors game built using Python.
 
-## 📌 About
+## Features
 
-The computer generates a random number between **1 and 100**.
+- Random computer moves
+- Score tracking
+- First to 5 wins
+- Input validation
+- Round-by-round gameplay
 
-The player keeps guessing until they find the correct number.
+## Concepts Used
 
-The game provides hints if the guess is too high or too low.
+- while loops
+- if / elif / else
+- lists
+- random.choice()
+- variables
+- user input
 
-## ✨ Features
-
-- 🎲 Random number generation
-- ⬆️ Too High / ⬇️ Too Low hints
-- 🔄 Play Again option
-- 📊 Attempt counter
-
-## 🛠️ Concepts Used
-
-- Variables
-- Loops (`while`)
-- `if / elif / else`
-- User Input
-- `random` module
-- String methods (`lower()`)
-
-## ▶️ How to Run
+## Run
 
 ```bash
-py guess_the_number.py
+py rock_paper_scissors.py
 ```
-
-Enjoy! 🎉
